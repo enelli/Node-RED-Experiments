@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A Helm chart for Kubernetes
+name: noderedfhvuo20210710
+version: 1.0.0
