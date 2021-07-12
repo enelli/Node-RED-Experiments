@@ -18,7 +18,7 @@ COPY --from=build /opt/app-root/src /opt/app-root/src/
 WORKDIR /opt/app-root/src
 
 ENV NODE_ENV=production
-ENV PORT 8080
-EXPOSE 8080
+ENV PORT 3000
+EXPOSE 3000
 
 CMD ["npm", "start"]
