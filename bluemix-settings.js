@@ -39,7 +39,7 @@ if(!fs.existsSync(userDir)) fs.mkdirSync(userDir);
 if(!fs.existsSync(path.join(userDir,"node_modules"))) fs.mkdirSync(path.join(userDir,"node_modules"));
 
 var settings = module.exports = {
-    uiPort: process.env.PORT || 1880,
+    uiPort: process.env.PORT || 8080,
     mqttReconnectTime: 15000,
     debugMaxLength: 1000,
 
